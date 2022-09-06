@@ -10,7 +10,7 @@
 	padding: 0px;
 	position: relative;
 }
-
+ 
 .container:after, .container:before {
 	content: " ";
 	display: table;
