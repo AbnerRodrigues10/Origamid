@@ -1,0 +1,22 @@
+/* Estilos gerais */
+
+
+/* Header */
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fec63e;
+    padding: 15px 0;
+}
+
+.header_menu {
+ text-align: right;
+
+}
+.header_menu ul li {
+    display: inline-block;
+    
+}
+/* Introdução */
