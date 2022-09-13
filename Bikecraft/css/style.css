@@ -31,6 +31,26 @@ p {
 
 }
 
+.subtitulo-interno{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.subtitulo-interno::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 8px 0;
+
+}
+
 .btn {
     border: 3px solid #fec63e;
     padding: 10px 30px;
@@ -89,6 +109,10 @@ img{
 .header_menu ul li a:hover{
     color: #fff;
 }
+
+.header_menu ul li a.menu_ativo {
+    color: #FFF;
+}
 /* Introdução */
 .indroducao{
     width: 100%;
@@ -105,7 +129,7 @@ img{
     color: #FFF;
     font-weight: bold;
     text-transform: uppercase;
-    
+
 }
 
 .quote-externo {
@@ -131,12 +155,38 @@ img{
 }
 
 .quote-externo cite {
-    font-style: normal;
+    font-style: normal; 
     font-weight: bold;
     font-size: 14px;
     letter-spacing: .1em;
 }
 
+/* introdução interna */
+.indroducao-interna {
+    width: 100%;
+    margin-top: 92px;
+    height: 160px;
+    background-size: cover;
+    text-align: center;
+    color: #FFF;
+    padding-top: 30px;
+
+}
+
+.indroducao-interna h1{
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.indroducao-interna h1::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #FFF;
+    margin: 6px auto 10px auto;
+}
 
 /* Produtos */
 .produtos {
@@ -229,6 +279,7 @@ img{
 
 .qualidade_lista {
 padding-top: 20px;
+overflow: auto;
 }
 
 .qualidade img {
@@ -238,6 +289,7 @@ padding-top: 20px;
 .qualidade_lista li {
     text-align: center;
     padding: 0 40px;
+   
 } 
 
 .qualidade_lista li h3{
@@ -258,7 +310,7 @@ padding-top: 20px;
     margin: 6px auto;
 }
 
-/* qubra */
+/* quebra */
 .quebra {
     width: 100%;
     height: 220px;
