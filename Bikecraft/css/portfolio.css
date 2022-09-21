@@ -3,13 +3,13 @@
     background-size: cover;
 }
 
-.quote_clietes {
+.quote_clientes {
     padding: 60px 0;
     max-width: 460px;
     margin: 0 auto;
 }
 
-.quote_clietes p {
+.quote_clientes p {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
@@ -19,7 +19,7 @@
 }
 
 
-.quote_clietes cite {
+.quote_clientes cite {
     font-size: 18px;
     font-weight: bold;
     text-align: right;
