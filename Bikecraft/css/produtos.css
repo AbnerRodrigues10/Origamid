@@ -133,6 +133,10 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.form p {
+    color: #fec63e;
+}
+
 .btn {
     padding: 7px 40px;
     background: none;
